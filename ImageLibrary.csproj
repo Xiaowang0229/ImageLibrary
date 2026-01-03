@@ -8,6 +8,26 @@
     <UseWindowsForms>True</UseWindowsForms>
     <UseWPF>True</UseWPF>
     <Platforms>AnyCPU;x86</Platforms>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageId>ImageLibrary</PackageId>
+    <Title>Xiaowang0229's ImageLibrary</Title>
+    <Version>1.0.0.0</Version>
+    <Authors>Xiaowang0229</Authors>
+    <Company>Xiaowang0229's Software Developoment Group.</Company>
+    <Product>ImageLibrary</Product>
+    <Description>Resx 文件里的图片提取，保存等操作，（仅适用于WPF）</Description>
+    <Copyright>Copyright 2025 Xiaowang0229's Software Developoment Group.</Copyright>
+    <PackageProjectUrl>https://github.com/Xiaowang0229/ImageLibrary</PackageProjectUrl>
+    <PackageIcon>Fa6SolidImage.png</PackageIcon>
+    <RepositoryUrl>https://github.com/Xiaowang0229/ImageLibrary</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Update="Fa6SolidImage.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
